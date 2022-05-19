@@ -1,0 +1,36 @@
+Print the characters in a string separated by comma.
+Sample Input :
+guvi
+Sample Output :
+g,u,v,i
+program:
+da = input( )
+str =''
+
+for i in range(0 , len(da)):
+    
+    
+    if i == len(da)-1:
+        
+        str =str + da[i] 
+    else:
+        
+        str = str + da[i] + ","
+        
+        
+print(str)
+Print the characters in a string separated by line.
+Sample Input :
+guvigeek
+Sample Output :
+g
+u
+v
+i
+g
+e
+e
+k
+da = input( )
+for i in range(0, len(da)):
+    print(da[i])
